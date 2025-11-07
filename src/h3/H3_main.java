@@ -5,9 +5,9 @@ public class H3_main {
 
         //variables:
 
-        int max = 12;
-        int fix = 6;
-        int wartend = 1;
+        int max = 5;
+        int fix = 2;
+        int wartend = 2;
         boolean istVoll = false;
 
         //schleife:
@@ -22,5 +22,7 @@ public class H3_main {
         else{
             istVoll = false;
         }
+
+        System.out.println("max: " + max + " fix: " + fix + " wartend: " + wartend + " Voll?: " + istVoll);
     }
 }
